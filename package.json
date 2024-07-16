@@ -10,9 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxthub/core": "^0.7.1",
     "nuxt": "^3.12.3",
     "puppeteer": "^22.13.0",
     "vue": "latest",
     "vue-pdf-embed": "^2.0.4"
+  },
+  "devDependencies": {
+    "wrangler": "^3.65.0"
   }
 }
